@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-06T05:19:21.800080",
+  "dataset": "IBM AML Synthetic Dataset \u2014 HI-Small",
+  "total_transactions": 5078345,
+  "laundering_transactions": 5177,
+  "laundering_pct": 0.1,
+  "ml_results": {
+    "RandomForest": {
+      "auc": 0.9498,
+      "f1": 0.9987,
+      "accuracy": 0.9991,
+      "precision": 0.9735,
+      "recall": 0.1081,
+      "tp": 110,
+      "fp": 3,
+      "fn": 908
+    },
+    "GBT": {
+      "auc": 0.9801,
+      "f1": 0.999,
+      "accuracy": 0.9992,
+      "precision": 0.902,
+      "recall": 0.2711,
+      "tp": 276,
+      "fp": 30,
+      "fn": 742
+    }
+  },
+  "graph_results": {}
+}
