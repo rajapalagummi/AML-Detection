@@ -67,7 +67,6 @@ The full results with exact numbers are saved to `outputs/pipeline_summary.json`
 # Verify: java -version
 
 # 2. Setup
-cd ~/Desktop/Projects/aml-detection
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
@@ -87,20 +86,5 @@ python3 main.py --skip-graph
 
 ---
 
-## Push to GitHub
-
-```bash
-git init
-echo "data/" >> .gitignore
-echo "venv/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-git add .
-git commit -m "AML transaction detection PySpark ML pipeline graph pattern analysis IBM synthetic dataset"
-git remote add origin https://github.com/rajapalagummi/AML-Detection.git
-git branch -M main
-git push -u origin main
-```
-
----
 
 *Built by Raja Palagummi | rajapalagummi.com | github.com/rajapalagummi*
